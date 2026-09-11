@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#0b1016"/>
+  <circle cx="650" cy="400" r="180" fill="#c96618" fill-opacity="0.2"/>
+  <rect x="100" y="100" width="180" height="220" rx="16" fill="#1e2834" stroke="#eba047" stroke-opacity="0.5"/>
+  <rect x="310" y="100" width="180" height="220" rx="16" fill="#1e2834" stroke="#667a93"/>
+  <rect x="520" y="100" width="180" height="220" rx="16" fill="#1e2834" stroke="#9aabbf"/>
+  <text x="130" y="220" fill="#eba047" font-family="system-ui,sans-serif" font-size="18" font-weight="600">API</text>
+  <text x="335" y="220" fill="#c9d3de" font-family="system-ui,sans-serif" font-size="18" font-weight="600">Bot</text>
+  <text x="545" y="220" fill="#9aabbf" font-family="system-ui,sans-serif" font-size="18" font-weight="600">Docs</text>
+  <text x="100" y="400" fill="#f4f6f8" font-family="system-ui,sans-serif" font-size="22" font-weight="600">Dev Bundle</text>
+  <text x="100" y="435" fill="#9aabbf" font-family="system-ui,sans-serif" font-size="16">API + Chatbot starter kit</text>
+</svg>

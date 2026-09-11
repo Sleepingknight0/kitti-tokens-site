@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" fill="none">
+  <rect width="1200" height="400" fill="#141b24"/>
+  <circle cx="1000" cy="80" r="220" fill="#e28522" fill-opacity="0.25"/>
+  <circle cx="80" cy="360" r="160" fill="#4a5d75" fill-opacity="0.4"/>
+  <text x="80" y="160" fill="#eba047" font-family="system-ui,sans-serif" font-size="18" font-weight="600" letter-spacing="4">PROMO</text>
+  <text x="80" y="230" fill="#ffffff" font-family="system-ui,sans-serif" font-size="42" font-weight="700">เปิดเทอมนี้ — โบนัส 10%</text>
+  <text x="80" y="280" fill="#c9d3de" font-family="system-ui,sans-serif" font-size="20">เติมแพ็กเกจ API Starter / Pro รับเครดิตเพิ่ม (ตัวอย่างโปรโมชัน)</text>
+</svg>

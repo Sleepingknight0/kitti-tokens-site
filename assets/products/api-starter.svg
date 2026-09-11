@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#141b24"/>
+  <circle cx="640" cy="120" r="180" fill="#e28522" fill-opacity="0.18"/>
+  <circle cx="160" cy="400" r="140" fill="#4a5d75" fill-opacity="0.35"/>
+  <rect x="80" y="100" width="280" height="40" rx="8" fill="#2c3948"/>
+  <rect x="80" y="160" width="200" height="24" rx="6" fill="#384859"/>
+  <rect x="80" y="220" width="440" height="160" rx="16" fill="#1e2834" stroke="#eba047" stroke-opacity="0.4"/>
+  <text x="110" y="280" fill="#eba047" font-family="system-ui,sans-serif" font-size="22" font-weight="600">API KEY</text>
+  <text x="110" y="320" fill="#c9d3de" font-family="ui-monospace,monospace" font-size="16">kt_live_••••••••••••</text>
+  <text x="80" y="440" fill="#9aabbf" font-family="system-ui,sans-serif" font-size="18">Starter · Multi-provider</text>
+</svg>
