@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>โครงสร้างของเว็บไซต์ — Kitti Tokens</title>
-  <meta name="description" content="โครงสร้างสารสนเทศ (IA) ของเว็บไซต์ Kitti Tokens — แผนผังหน้า Home About Products Contact FAQ สำหรับ Classroom" />
+  <meta name="description" content="โครงสร้างและแผนผังสารสนเทศของเว็บไซต์ Kitti Tokens" />
   <link rel="stylesheet" href="/assets/site.css" />
   <link rel="icon" href="/assets/brand-logo.png" type="image/png" />
 </head>
@@ -29,107 +29,53 @@
 
     <main>
       <div class="wrap page-intro">
-        <p class="eyebrow">Information architecture</p>
+        <p class="eyebrow">Site structure</p>
         <h1>โครงสร้างของเว็บไซต์</h1>
-        <p class="lede">แผนผังไซต์และคำอธิบาย IA แบบสั้น สำหรับ Classroom — หน้าที่เปิดจริงวันนี้ ไม่มีโซนคอนโซลปลอม</p>
+        <p class="lede">แผนผังหน้าทั้งหมดของ Kitti Tokens — ใช้เป็นเอกสารโครงสร้างเว็บสำหรับงานวิชา</p>
       </div>
 
-      <section class="section" style="padding-top:0.5rem">
+      <section class="section" style="padding-top:0.5rem;border-top:none">
         <div class="wrap">
-          <div class="ia-grid">
-            <div class="sitemap" aria-label="แผนผังไซต์">
-              <p class="eyebrow">Sitemap</p>
-              <a class="sitemap-root" href="/">Kitti Tokens · หน้าแรก</a>
-              <ul class="sitemap-tree">
-                <li>
-                  <a href="/about/">
-                    <span class="node-en">About</span>
-                    <span class="node-th">เกี่ยวกับ</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/products/">
-                    <span class="node-en">Products</span>
-                    <span class="node-th">สินค้า</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/contact/">
-                    <span class="node-en">Contact</span>
-                    <span class="node-th">ติดต่อ</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/faq/">
-                    <span class="node-en">FAQ</span>
-                    <span class="node-th">คำถามที่พบบ่อย</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/structure/" aria-current="page">
-                    <span class="node-en">Structure</span>
-                    <span class="node-th">โครงสร้าง (หน้านี้)</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="ia-copy">
-              <h2>คำอธิบาย IA</h2>
-              <p>ไซต์นี้เป็น<strong>เว็บหลายหน้าแบบตื้น (shallow IA)</strong> — ทุกหน้าอยู่ระดับเดียวใต้หน้าแรก ไม่มีโฟลเดอร์ซ้อน ไม่มีพื้นที่สมาชิก</p>
-              <ul class="ia-points">
-                <li><strong>หน้าแรก</strong> — สัญญาแบรนด์ สรุปสี่แพ็ก และโลโก้โมเดลที่จัดเส้นทาง (พร้อมข้อความเครื่องหมายการค้า)</li>
-                <li><strong>สินค้า</strong> — รายละเอียดราคาและขอบเขตแพ็ก Starter / Pro / Chatbot / Bundle</li>
-                <li><strong>เกี่ยวกับ</strong> — ใครคือกิตติภูมิ สิ่งที่ซื้อได้วันนี้ และสิ่งที่ยังไม่เปิด</li>
-                <li><strong>ติดต่อ</strong> — mailto เดียว <strong>bluesong4005@gmail.com</strong> ไม่มีฟอร์ม</li>
-                <li><strong>FAQ</strong> — คลายคำถามซ้ำก่อนเขียนอีเมล</li>
-                <li><strong>โครงสร้าง</strong> — แผนที่ไซต์สำหรับเรียน IA ไม่ใช่หน้าขาย</li>
-              </ul>
-              <p>เส้นทางผู้ใช้ที่ตั้งใจไว้: เข้าใจสินค้าที่หน้าแรกหรือสินค้า → อ่านขอบเขตที่เกี่ยวกับหรือ FAQ → สั่งทางอีเมลที่ติดต่อ หน้าโครงสร้างอยู่บนแถบนำทางเพื่อให้ชั้นเรียนเปิดแผนผังได้ทันที</p>
-              <p>สิ่งที่<strong>จงใจไม่ใส่</strong>ในแผนผัง: แดชบอร์ด ยอดคงเหลือ เช็คเอาต์ เพลย์กราวด์ — เพราะบริการเหล่านั้นยังไม่มี จึงไม่สร้างหน้าปลอม</p>
-            </div>
+          <div class="sitemap">
+            <article class="sitemap-node">
+              <h2><a href="/">/</a> หน้าแรก</h2>
+              <p>ฮีโร่ + โลโก้ผู้ให้บริการ + สี่แพ็กสินค้า + โปรโมชัน KITTI10</p>
+            </article>
+            <article class="sitemap-node">
+              <h2><a href="/products/">/products/</a> สินค้าและบริการ</h2>
+              <p>รายละเอียดแพ็ก Starter / Pro / Private Chatbot / Bundle พร้อมราคาและวิธีสั่ง</p>
+            </article>
+            <article class="sitemap-node">
+              <h2><a href="/about/">/about/</a> เกี่ยวกับเรา</h2>
+              <p>ใครคือเรา · ซื้ออะไรได้วันนี้ · สิ่งที่ยังไม่มี (สามข้อเท็จจริง)</p>
+            </article>
+            <article class="sitemap-node">
+              <h2><a href="/faq/">/faq/</a> คำถามที่พบบ่อย</h2>
+              <p>FAQ ภาษาไทยเรื่องแพ็ก การสั่งซื้อ และขอบเขตบริการ</p>
+            </article>
+            <article class="sitemap-node">
+              <h2><a href="/structure/">/structure/</a> โครงสร้างของเว็บไซต์</h2>
+              <p>แผนผังสารสนเทศ (หน้านี้) — แสดงความสัมพันธ์ของทุกหน้า</p>
+            </article>
+            <article class="sitemap-node">
+              <h2><a href="/contact/">/contact/</a> ติดต่อ</h2>
+              <p>อีเมล bluesong4005@gmail.com และขั้นตอนสั่งซื้อที่เปิดใช้จริง</p>
+            </article>
           </div>
-
-          <div class="page-list" aria-label="รายการหน้าทั้งหมด">
-            <a href="/">
-              <span class="node-en">Home</span>
-              <span class="node-th">หน้าแรก</span>
-              <p>แบรนด์ ฮีโร่ และสี่แพ็กย่อ</p>
-            </a>
-            <a href="/about/">
-              <span class="node-en">About</span>
-              <span class="node-th">เกี่ยวกับ</span>
-              <p>ตัวตนแบรนด์ และสิ่งที่ยังไม่เปิด</p>
-            </a>
-            <a href="/products/">
-              <span class="node-en">Products</span>
-              <span class="node-th">สินค้า</span>
-              <p>ราคาแพ็ก สั่งผ่านอีเมล</p>
-            </a>
-            <a href="/contact/">
-              <span class="node-en">Contact</span>
-              <span class="node-th">ติดต่อ</span>
-              <p>mailto bluesong4005 เท่านั้น</p>
-            </a>
-            <a href="/faq/">
-              <span class="node-en">FAQ</span>
-              <span class="node-th">คำถามที่พบบ่อย</span>
-              <p>คำตอบตรง ไม่มี uptime ปลอม</p>
-            </a>
-            <a href="/structure/" aria-current="page">
-              <span class="node-en">Structure</span>
-              <span class="node-th">โครงสร้าง</span>
-              <p>แผนผังไซต์สำหรับ Classroom</p>
-            </a>
+          <div class="contact-panel" style="margin-top:1.75rem;max-width:none">
+            <p class="eyebrow">Information architecture</p>
+            <h2 style="font-size:1.15rem;text-transform:uppercase;letter-spacing:0.04em">ลำดับการนำทาง</h2>
+            <p style="margin:0;color:var(--text-muted)">หน้าแรก → สินค้า → เกี่ยวกับ → FAQ → โครงสร้าง → ติดต่อ · ฟุตเตอร์ทุกหน้าลิงก์อีเมลเดียวกัน · ไม่มีพื้นที่สมาชิก / เช็คเอาต์ / แดชบอร์ดบนเว็บนี้</p>
           </div>
         </div>
       </section>
+
     </main>
 
     <footer class="site-footer">
       <div class="wrap">
         <p>© 2026 Kitti Tokens · กิตติภูมิ</p>
-        <p><a href="/contact/">bluesong4005@gmail.com</a></p>
+        <p><a href="mailto:bluesong4005@gmail.com">bluesong4005@gmail.com</a></p>
       </div>
     </footer>
   </div>
