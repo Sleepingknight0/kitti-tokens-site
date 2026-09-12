@@ -10,8 +10,8 @@
   --text: #ffffff;
   --text-muted: #b3b3b3;
   --text-dim: #7a7a7a;
-  --accent: #e82127; /* SpaceX red — primary CTA only */
-  --accent-hover: #ff2d34;
+  --accent: #e10600; /* SpaceX red #e10600 — primary CTA only */
+  --accent-hover: #c41b23;
   --accent-ink: #ffffff;
   --radius: 4px;
   --radius-lg: 8px;
