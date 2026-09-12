@@ -10,8 +10,8 @@
   --text: #f5f5f5;
   --text-muted: #a3a3a3;
   --text-dim: #737373;
-  --accent: #22d3ee; /* cyan — matches brand-logo glow; used ONLY on primary CTA */
-  --accent-ink: #041016;
+  --accent: #e10600; /* SpaceX-tone red; used ONLY on primary CTA */
+  --accent-ink: #ffffff;
   --radius: 12px;
   --radius-lg: 16px;
   --wrap: 72rem;
